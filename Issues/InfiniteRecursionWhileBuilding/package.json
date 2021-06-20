@@ -7,7 +7,7 @@
 		"start_noCache": "shx rm -rf ./node_modules/.cache && snowpack build --watch"
 	},
 	"devDependencies": {
-		"snowpack": "^3.4.0",
+		"snowpack": "^3.5.9",
 		"shx": "0.3.3"
 	},
 	"dependencies": {
