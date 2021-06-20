@@ -1,0 +1,29 @@
+{
+	
+	"compilerOptions": {
+		"sourceMap": true,
+		"watch": true,
+
+		// modules/paths
+		"module": "esnext",
+		"moduleResolution": "node",
+		"rootDir": "Source",
+		"baseUrl": "Source",
+
+		// compiler options
+		"target": "esnext",
+		"lib": [
+			"es6",
+			"es5",
+			"dom"
+		],
+		"jsx": "react",
+		"noImplicitAny": false,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true
+	},
+	"include": [
+		"Source/**/*.ts",
+		"Source/**/*.tsx"
+	]
+}

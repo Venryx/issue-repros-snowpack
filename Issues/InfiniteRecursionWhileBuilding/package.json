@@ -1,0 +1,16 @@
+{
+	"name": "dm_server",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"start_withCache": "snowpack build --watch",
+		"start_noCache": "shx rm -rf ./node_modules/.cache && snowpack build --watch"
+	},
+	"devDependencies": {
+		"snowpack": "^3.4.0",
+		"shx": "0.3.3"
+	},
+	"dependencies": {
+		"pg": "8.6.0"
+	}
+}
